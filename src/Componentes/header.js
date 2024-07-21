@@ -8,8 +8,6 @@ function Header(){
 
                 <p>Gmail</p>
                 <p>Imagens</p>
-                <img src={pontos}></img>
-                <img src={Foto}></img>
                 <img src={pontos} alt='ERROR'></img>
                 <img src={Foto} alt='ERROR'></img>
 
