@@ -1,0 +1,18 @@
+.Header{
+    margin: 5px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    background-color: fffff;
+    font-size: 14px;
+    color: #707070;
+}
+
+.Header p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Header img:hover {
+    cursor: pointer;
+}

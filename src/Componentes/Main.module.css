@@ -1,0 +1,95 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    margin-top: 40px;
+    width: 276px; 
+    margin-bottom: 10px;
+}
+
+.inputContainer {
+    position: relative;
+    width: 582px;
+    height: 50px;
+    padding: 10px 0px;
+}
+
+.inputField:hover {
+    box-shadow: 0px 1px 3px rgba(205, 198, 198, 0.7);
+}
+
+.inputField {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    padding-left: 40px;
+    padding-right: 70px;
+    border: 1px solid #E3E3E3;
+    font-size: larger;
+    box-sizing: border-box;
+}
+
+
+.iconLupa {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    width: 25px; 
+    height: 25px; 
+    cursor: pointer;
+}
+
+
+.iconTeclado {
+    position: absolute;
+    top: 30%;
+    right: 55px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.iconMicrofone {
+    position: absolute;
+    top: 30%;
+    right: 20px;
+    width: 25px; 
+    height: 25px; 
+    cursor: pointer;
+}
+
+.button {
+    width: 135px;
+    height: 36px;
+    margin: 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f8f8f8;
+    color: #7B7B7B;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 3px 1px rgba(205, 198, 198, 0.7);
+}
+
+.seguranca{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    color: #1A0DBD;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 767px) {
+    .inputContainer {
+        position: relative;
+        width: 382px;
+    }
+}

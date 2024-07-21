@@ -1,0 +1,75 @@
+.Footer{
+    display: flex;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+    height: 47px;
+    background-color:#F2F2F2;
+    color: #707070;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-top: 1px solid #DADCE0;
+    height: 47px;
+    background-color:#F2F2F2;
+    color: #707070;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.aboutme{
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.aboutme:hover{
+    cursor: pointer;
+}
+
+.aboutmeend{
+    display: flex;
+    padding-right: 20px;
+    gap: 20px;
+
+}
+
+.aboutmeend:hover{
+    cursor: pointer;
+}
+
+div p:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    .Footer{
+        flex-direction: column;
+        font-weight: 400;
+        padding-left: 30px;
+    }
+    
+    .about{
+        flex-direction: column;
+        height: 370px;
+}
+
+        .aboutme{
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .aboutmeend{
+            display: flex;
+            flex-direction: column;
+            padding-left: 40px;
+            gap: 0px;
+        
+        }
+}
